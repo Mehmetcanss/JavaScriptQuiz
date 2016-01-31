@@ -1,0 +1,112 @@
+#wrapper {
+    position: relative;
+}
+#quiz {
+    position: relative;
+    height: 450px;
+    width: 450px;
+}
+#table {
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+#names {
+    height: 30px;
+}
+#nameDisplay {
+    position: absolute;
+    display: inline-block;
+    font-size: 90%;
+    padding-top: 10px;
+    width: 22%;
+}
+
+#questions {
+    font-size: 110%;
+    height: 70px;
+    display: inline-block;
+    padding-top: 10px;
+    width: 78%;
+}
+
+#start {
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    bottom: 10%;
+    right: 0;
+    background: #0080FF;
+    color: #ffffff;
+    padding: 6px;
+    text-align: center;
+    font-size: 190%;
+    border-radius: 10px;
+}
+#start:hover {
+    cursor: pointer;
+    background: navy;
+}
+#next {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    bottom: 10%;
+    right: 0;
+    background: #0080FF;
+    color: #ffffff;
+    text-align: center;
+    padding: 4px;
+    font-size: 200%;
+    border-radius: 10px;
+    display: none;
+}
+#next:hover {
+    cursor: pointer;
+    background: navy;
+}
+#back {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    bottom: 10%;
+    left: 0;
+    background: #0080FF;
+    color: #ffffff;
+    text-align: center;
+    padding: 4px;
+    font-size: 200%;
+    border-radius: 10px;
+    display: none;
+}
+#back:hover {
+    cursor: pointer;
+    background: navy;
+}
+.choices {
+    display: none;
+    position: relative;
+}
+.parag {
+    display: inline;
+}
+
+#results {
+    display: none;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    height: 400px;
+    width: 450px;
+}
+td {
+    border: 1px solid black;
+}
+th {
+    border: 1px solid black;
+}
+#announcements {
+    height: 70px;
+    font-size: 130%;
+}
