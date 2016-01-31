@@ -1,0 +1,115 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="utf-8">
+    <title>My Jquery Quiz About Turkey</title>
+    <link rel="stylesheet" href="lastCss.css" type="text/css">
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="span8">
+            <div class="row">
+                <div class="span6">
+                    <h1>Dynamic Quiz</h1>
+                </div>
+                <div class="span2">
+                    <div id="nameDisplay" class="span2" style="padding-top: 10px"></div>
+                </div>
+            </div>
+            <div id="quiz">
+                <div id="beginning">
+                    <h4>This is a quiz about Turkey, please enter your name and click start to begin.</h4>
+                    <input type="text" placeholder="Enter your name here" id="names" class="input-large"
+                           style="height: 30px">
+                </div>
+                <div id="questions" class="lead"></div>
+                <div id="answersFrame">
+                    <label class="radio">
+                        <input type="radio" name="answers" class="choices" value="0">
+                        <span id="zero" class="choices"></span>
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="answers" class="choices" value="1">
+                        <span id="one" class="choices"></span>
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="answers" class="choices" value="2">
+                        <span id="two" class="choices"></span>
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="answers" class="choices" value="3">
+                        <span id="three" class="choices"></span>
+                    </label>
+                </div>
+                <div class="row">
+                    <div class="span4">
+                        <button id="start" class="btn btn-success btn-block" style="height: 35px">Start</button>
+                        <button id="next" class="btn btn-primary btn-block" style="height: 35px"><i class="icon-ok"></i> Next</button>
+                        <button id="back" class="btn btn-warning btn-block" style="height: 35px">Back</button>
+                        <div class="span8"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="table">
+                <div id="announcements" class="lead"></div>
+                <table id="results" class="table table-bordered">
+                    <caption>Quiz Results</caption>
+                    <thead>
+                    <tr>
+                        <th>Question</th>
+                        <th>Your Answer</th>
+                        <th>Correct Answer</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="rowA" data-name=0>
+                        <td>Turkey's capital</td>
+                        <td>
+                            <p class="userAnswer" data-value=0></p>
+                        </td>
+                        <td>
+                            <p class="correctAnswer" data-value=0></p>
+                        </td>
+                    </tr>
+                    <tr class="rowA" data-name=1>
+                        <td>Turkey's founding date</td>
+                        <td>
+                            <p class="userAnswer" data-value=1></p>
+                        </td>
+                        <td>
+                            <p class="correctAnswer" data-value=1></p>
+                        </td>
+                    </tr>
+                    <tr class="rowA" data-name=2>
+                        <td>Turkey's population</td>
+                        <td>
+                            <p class="userAnswer" data-value=2></p>
+                        </td>
+                        <td>
+                            <p class="correctAnswer" data-value=2></p>
+                        </td>
+                    </tr>
+                    <tr class="rowA" data-name=3>
+                        <td>Istanbul's population</td>
+                        <td>
+                            <p class="userAnswer" data-value=3></p>
+                        </td>
+                        <td>
+                            <p class="correctAnswer" data-value=3></p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <a href="" class="btn btn-block">Reset</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="quizScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@import url("css/bootstrap.min.css");
+
+#next {
+    display: none;
+}
+
+#back {
+    display: none;
+}
+
+.choices {
+    display: none;
+}
+
+#table {
+    display: none;
+}

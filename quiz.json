@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is the capital of Turkey?",
+        "answers": ["Istanbul", "Ankara", "Izmir", "Trabzon"],
+        "correctAnswer": "1"
+    },
+    {
+        "question": "When was Turkey established?",
+        "answers": [1923, 1928, 1933, 1934],
+        "correctAnswer": "0"
+    },
+    {
+        "question": "What is the population of Turkey?",
+        "answers": ["90 million", "75 million", "100 million", "80 million"],
+        "correctAnswer": "1"
+    },
+    {
+        "question": "What is the population of Turkey's biggest city, Istanbul?",
+        "answers": ["18 million", "16 million", "14 million", "7 million"],
+        "correctAnswer": "2"
+    }
+]
